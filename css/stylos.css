@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+}
+
+#btn {
+    background-color: rgb(49, 49, 49);
+    padding: 15px 35px 15px 35px;
+    width: 15%;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    border-radius: 50px;
+    font-family: "Roboto Flex"; 
+    position: absolute;
+    left: 1%;
+    transition: background-color, width 0.5s ease;
+    
+}
+
+#btn:hover {
+    width: 25%;
+    background-color: white;
+    color: rgb(49, 49, 49);
+}
+
+#fn {
+    color: white;
+    font-family: "Roboto Flex";
+    font-size: 35px;
+    padding: 20% 25% 0 25%;
+    text-align: center;
+}
+
+#na {
+    color: white;
+    font-family: "Roboto Flex";
+    font-size: 35px;
+    text-align: center;
+}
